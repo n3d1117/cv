@@ -1,5 +1,5 @@
 # CV 📄
-My personal resume, built with Typst 0.2.0
+My personal resume, built with [Typst](https://typst.app)
 
 ## Setup
 1. Install Typst 0.2.0 (see [guide here](https://github.com/typst/typst#installation))
