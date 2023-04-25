@@ -16,6 +16,11 @@ jobs:
           version: 'v0.2.0'
       - name: Compile PDF
         run: typst --font-path ./fonts compile cv.typ
+      - name: Add PDF to repo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update PDF
+          file_pattern: '*.pdf'
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
