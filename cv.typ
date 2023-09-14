@@ -144,7 +144,7 @@
   - *Libraries & Frameworks* 
     - SwiftUI, UIKit, Combine, AppKit and other Apple frameworks
     - Vapor, Quarkus, Apache Kafka, Karate, Angular, Flask
-  - *Tools & Platforms:*
+  - *Tools & Platforms*
     - Git, GitHub, GitLab, Xcode, Fastlane, Crashlytics, Firebase
     - Jira, Docker, Kubernetes, RedPanda, AWS
   - *Other:* Experience with iOS reverse engineering and jailbreak tweaks development, CI/CD, unit and integration testing, relational databases
