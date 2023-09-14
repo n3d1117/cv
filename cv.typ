@@ -86,29 +86,30 @@
 
 == Work Experience
 #entry[Software Engineer][Magenta Srl][Florence, Italy][Feb 2022 --- present]
-- Building the #link("https://www.greenapes.com/en/")[greenApes] iOS app, a social network focused on sustainability and positive environment impact, using Swift, SwiftUI and Combine. Lead a major rewrite and successfully released 20+ versions on the App Store
-- Writing Java backend microservices using Quarkus and Apache Kafka, with a focus on message-driven architecture and efficient data processing mechanisms
-- Developing reactive web applications using Angular and NgRx for state management
+- Building the #link("https://www.greenapes.com/en/")[greenApes] iOS app, a social network focused on sustainability and positive environment impact, using Swift, SwiftUI and Combine. Lead a major rewrite from an old Objective-C codebase and successfully shipped 30+ updates on the App Store
+- Working as a part-time consultant at #link("https://www.thalesgroup.com/en")[Thales Italia S.p.A.]
+  - Writing Java backend microservices using Quarkus and Apache Kafka
+  - Developing reactive web applications using Angular and NgRx for state management
 
 #entry[Software Engineer Intern][Magenta Srl][Florence, Italy][Sep 2021 --- Jan 2022]
 - Applied robust regression models based on historical data to enhance the calibration process of the #link("https://www.airqino.it/en/")[AirQino] air quality stations, resulting in a 15% increase in accuracy for PM#sub[2.5] and PM#sub[10] sensors
-- Optimized SQL queries and applied #link("https://www.timescale.com")[Timescale]'s _continuous aggregates_ technique to the #link("https://www.airqino.it/en/")[AirQino] backend APIs, resulting in a response time improvement of over 10x
+- Optimized SQL queries and applied #link("https://www.timescale.com")[Timescale]'s _continuous aggregates_ technique to the #link("https://www.airqino.it/en/")[AirQino] backend APIs, resulting in a response time improvement of over 10x for specific queries
 - Set up a 1:1 read-only streaming replica of the primary #link("https://www.airqino.it/en/")[AirQino] PostgreSQL database (>100#smallcaps([m]) rows) for performance tests, relieving the load on the primary database and increasing availability
 
 == Education
 #entry[MSc in Computer Science & Engineering][University of Florence][Florence, Italy][Sep 2019 --- Apr 2022]
 - #underline[Final grade]: `110/110` with honours
-- #underline[Thesis]: Design and development of components for the #link("https://www.airqino.it/en/")[AirQino] platform dedicated to air quality monitoring
+// - #underline[Thesis]: Design and development of components for the #link("https://www.airqino.it/en/")[AirQino] platform dedicated to air quality monitoring
 
 #entry[BSc in Computer Science & Engineering][University of Florence][Florence, Italy][Sep 2015 --- Apr 2019]
-- #underline[Thesis]: Semantic expansion of bibliographic records: using ML-based entity extraction tools (such as #link("https://spacy.io")[spaCy]) and #link("https://www.w3.org/TR/rdf-sparql-query/")[SPARQL] queries to generate annotations based on geographic data
+// - #underline[Thesis]: Semantic expansion of bibliographic records: using ML-based entity extraction tools (such as #link("https://spacy.io")[spaCy]) and #link("https://www.w3.org/TR/rdf-sparql-query/")[SPARQL] queries to generate annotations based on geographic data
 
 == Personal Projects
 #projects((
   (
     name: "chatgpt-telegram-bot", 
     link: "https://github.com/n3d1117/chatgpt-telegram-bot", 
-    description: [A Telegram bot that uses OpenAI's ChatGPT, DALL·E and Whisper APIs to answer questions, generate images from text and transcribe audio files. Written in Python --- 1#smallcaps([k])+ stars on GitHub]
+    description: [A Telegram bot that uses OpenAI's ChatGPT, DALL·E and Whisper APIs to answer questions, generate images from text and transcribe audio files. Written in Python --- 1.8#smallcaps([k])+ stars on GitHub]
   ),
   (
     name: "stats-ios", 
@@ -118,7 +119,7 @@
   (
     name: "appdb", 
     link: "https://github.com/n3d1117/appdb", 
-    description: [A fully-featured iOS client for _appdb_, an alternative app store for iOS devices. Written in Swift with UIKit --- 200+ stars on GitHub]
+    description: [A fully-featured iOS client for _appdb_, a third party app store for iOS devices. Written in Swift with UIKit --- 250+ stars on GitHub]
   ),
   (
     name: "cook", 
@@ -139,12 +140,14 @@
   [
   == Skills
   - *Programming Languages:*
-    Swift, Python, Java, TypeScript, SQL
+    Swift, Python, Java
   - *Libraries & Frameworks* 
-    - SwiftUI, UIKit, Combine, Swift Charts, AppKit
-    - Vapor, Quarkus, Apache Kafka, Angular, Flask, Pandas, Logos
-  - *Tools & Platforms:* Xcode, Git, GitHub, Fastlane, Docker, AWS
-  - *Other:* API design, relational databases, continuous integration and delivery (CI/CD), unit and integration testing
+    - SwiftUI, UIKit, Combine, AppKit and other Apple frameworks
+    - Vapor, Quarkus, Apache Kafka, Karate, Angular, Flask
+  - *Tools & Platforms:*
+    - Git, GitHub, GitLab, Xcode, Fastlane, Crashlytics, Firebase
+    - Jira, Docker, Kubernetes, RedPanda, AWS
+  - *Other:* Experience with iOS reverse engineering and jailbreak tweaks development, CI/CD, unit and integration testing, relational databases
   ],
   [
   == Languages
@@ -157,9 +160,7 @@
   #pills((
     "Open Source Software",
     "Automation",
-    "Music",
-    "Cinema",
-    "Gaming",
+    "Reverse Engineering",
     "Football"
   ))
   ]
