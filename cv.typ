@@ -1,5 +1,5 @@
 /* TEMPLATE */
-#set text(10.8pt, lang: "en")
+#set text(10.9pt, lang: "en")
 #set page(margin: (x: 1.5cm, y: 1.6cm))
 #show link: underline
 #show heading.where(level: 2): it => text(15pt,
@@ -47,7 +47,7 @@
   v(3pt)
   for (index, project) in projects.enumerate() [
     - #block([
-        #text(weight: "medium")[#link(project.link)[#project.name]]
+        #text(weight: "semibold")[#link(project.link)[#project.name]]
         #h(1pt)
         #icon("github", baseline: 1.8pt, hspace: 3pt, height: 9pt)
         #project.description
@@ -59,7 +59,7 @@
 #let pills(skills) = {
   let cell = rect.with(radius: 5pt, inset: (top: 5pt, bottom: 5pt, left: 6pt, right: 6pt), fill: rgb("F0F0F0"), stroke: 0.4pt + rgb("808080"))
   let boxes = for skill in skills {(box(cell(text(9pt)[#skill])),)}
-  v(-1pt)
+  v(-3pt)
   {boxes.join("  ")}
 }
 
@@ -87,9 +87,7 @@
 == Work Experience
 #entry[Software Engineer][Magenta Srl][Florence, Italy][Feb 2022 --- present]
 - Building the #link("https://www.greenapes.com/en/")[greenApes] iOS app, a social network focused on sustainability and positive environment impact, using Swift, SwiftUI and Combine. Lead a major rewrite from an old Objective-C codebase and successfully shipped 30+ updates on the App Store
-- Working as a part-time consultant at #link("https://www.thalesgroup.com/en")[Thales Italia S.p.A.]
-  - Writing Java backend microservices using Quarkus and Apache Kafka
-  - Developing reactive web applications using Angular and NgRx for state management
+- Working as a consultant at #link("https://www.thalesgroup.com/en")[Thales Italia], developing a suite of applications designed to monitor airport systems and enhance the efficiency of boarding processes, using Java (Quarkus), Apache Kafka and Angular (NgRx)
 
 #entry[Software Engineer Intern][Magenta Srl][Florence, Italy][Sep 2021 --- Jan 2022]
 - Applied robust regression models based on historical data to enhance the calibration process of the #link("https://www.airqino.it/en/")[AirQino] air quality stations, resulting in a 15% increase in accuracy for PM#sub[2.5] and PM#sub[10] sensors
@@ -98,7 +96,7 @@
 
 == Education
 #entry[MSc in Computer Science & Engineering][University of Florence][Florence, Italy][Sep 2019 --- Apr 2022]
-- #underline[Final grade]: `110/110` with honours
+- #underline[Final grade]: 110/110 with honours
 // - #underline[Thesis]: Design and development of components for the #link("https://www.airqino.it/en/")[AirQino] platform dedicated to air quality monitoring
 
 #entry[BSc in Computer Science & Engineering][University of Florence][Florence, Italy][Sep 2015 --- Apr 2019]
@@ -112,14 +110,14 @@
     description: [A Telegram bot that uses OpenAI's ChatGPT, DALL·E and Whisper APIs to answer questions, generate images from text and transcribe audio files. Written in Python --- 1.8#smallcaps([k])+ stars on GitHub]
   ),
   (
-    name: "stats-ios", 
-    link: "https://github.com/n3d1117/stats-ios", 
-    description: [A personal iOS app to keep track of movies and tv shows I've watched, books I've read, games I've played and music I've listened to. Written in SwiftUI]
-  ),
-  (
     name: "appdb", 
     link: "https://github.com/n3d1117/appdb", 
     description: [A fully-featured iOS client for _appdb_, a third party app store for iOS devices. Written in Swift with UIKit --- 250+ stars on GitHub]
+  ),
+  (
+    name: "stats-ios", 
+    link: "https://github.com/n3d1117/stats-ios", 
+    description: [A personal iOS app to keep track of movies and tv shows I've watched, books I've read, games I've played and music I've listened to. Written in SwiftUI]
   ),
   (
     name: "cook", 
@@ -135,21 +133,27 @@
 
 #v(4pt)
 #grid(
-  columns: (0.65fr, 0.4fr),
+  columns: (0.6fr, 0.4fr),
   gutter: 18pt,
   [
   == Skills
   - *Programming Languages:*
-    Swift, Python, Java
+    Swift, Python, Java, TypeScript
   - *Libraries & Frameworks* 
     - SwiftUI, UIKit, Combine, AppKit and other Apple frameworks
-    - Vapor, Quarkus, Apache Kafka, Karate, Angular, Flask
+    - Vapor, Quarkus, Apache Kafka, Angular, Flask, Karate
   - *Tools & Platforms*
     - Git, GitHub, GitLab, Xcode, Fastlane, Crashlytics, Firebase
     - Jira, Docker, Kubernetes, RedPanda, AWS
-  - *Other:* Experience with iOS reverse engineering and jailbreak tweaks development, CI/CD, unit and integration testing, relational databases
+  - *Other:* Experience with iOS reverse engineering and jailbreak tweaks development, CI/CD, unit and integration testing, relational databases, agile methodologies
   ],
   [
+  == Conferences attended
+  #pills((
+    link("https://pragmaconference.com/")[\#Pragma (2023)],
+    link("https://2019.pragmaconference.com")[\#Pragma (2019)]
+  ))
+
   == Languages
   #pills((
     "Italian (native)",
