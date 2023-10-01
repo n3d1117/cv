@@ -57,9 +57,9 @@
 }
 
 #let pills(skills) = {
-  let cell = rect.with(radius: 5pt, inset: (top: 5pt, bottom: 4pt, left: 6pt, right: 6pt), fill: rgb("F0F0F0"), stroke: 0.4pt + rgb("808080"))
+  let cell = rect.with(radius: 5pt, inset: (top: 5pt, bottom: 5pt, left: 6pt, right: 6pt), fill: rgb("F0F0F0"), stroke: 0.4pt + rgb("808080"))
   let boxes = for skill in skills {(box(cell(text(9pt)[#skill])),)}
-  v(-3pt)
+  v(-2pt)
   {boxes.join("  ")}
 }
 
@@ -141,7 +141,7 @@
     Swift, Python, Java, TypeScript
   - *Libraries & Frameworks* 
     - SwiftUI, UIKit, Combine, AppKit and other Apple frameworks
-    - Vapor, Quarkus, Apache Kafka, Angular, Flask, Karate
+    - Vapor, Quarkus, Apache Kafka, Angular, NgRx, Flask, Karate
   - *Tools & Platforms*
     - Git, GitHub, GitLab, Xcode, Fastlane, Crashlytics, Firebase
     - Jira, Docker, Kubernetes, RedPanda, AWS
@@ -153,12 +153,14 @@
     link("https://pragmaconference.com/")[\#Pragma (2023)],
     link("https://2019.pragmaconference.com")[\#Pragma (2019)]
   ))
+  #v(-3pt)
 
   == Languages
   #pills((
     "Italian (native)",
     "English (advanced)"
   ))
+  #v(-3pt)
 
   == Interests
   #pills((
