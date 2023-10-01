@@ -57,7 +57,7 @@
 }
 
 #let pills(skills) = {
-  let cell = rect.with(radius: 5pt, inset: (top: 5pt, bottom: 5pt, left: 6pt, right: 6pt), fill: rgb("F0F0F0"), stroke: 0.4pt + rgb("808080"))
+  let cell = rect.with(radius: 5pt, inset: (top: 5pt, bottom: 4pt, left: 6pt, right: 6pt), fill: rgb("F0F0F0"), stroke: 0.4pt + rgb("808080"))
   let boxes = for skill in skills {(box(cell(text(9pt)[#skill])),)}
   v(-3pt)
   {boxes.join("  ")}
