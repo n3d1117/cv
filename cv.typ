@@ -85,14 +85,15 @@
 #v(5pt)
 
 == Work Experience
-#entry[Software Engineer][Magenta Srl][Florence, Italy][Feb 2022 --- present]
-- Building the #link("https://www.greenapes.com/en/")[greenApes] iOS app, a social network focused on sustainability and positive environment impact, using Swift, SwiftUI and Combine. Lead a major rewrite from an old Objective-C codebase and successfully shipped 30+ updates on the App Store
-- Working as a consultant at #link("https://www.thalesgroup.com/en")[Thales Italia], developing a suite of applications designed to monitor airport systems and enhance the efficiency of boarding processes, using Java (Quarkus), Apache Kafka and Angular (NgRx)
+#entry[iOS Engineer][Shape Games][Copenhagen, Denmark][Jan 2024 --- present]
+- Working on highly modular iOS apps using Swift packages
 
-#entry[Software Engineer Intern][Magenta Srl][Florence, Italy][Sep 2021 --- Jan 2022]
+#entry[Software Engineer][Magenta Srl][Florence, Italy][Sep 2021 --- Dec 2023]
+- Built the #link("https://www.greenapes.com/en/")[greenApes] iOS app, a social network focused on sustainability and positive environment impact, using Swift, SwiftUI and Combine. Lead a major rewrite from an old Objective-C codebase and successfully shipped 30+ updates on the App Store
+- Worked as a consultant at #link("https://www.thalesgroup.com/en")[Thales Italia], developing a suite of applications designed to monitor airport systems and enhance the efficiency of boarding processes, using Java (Quarkus), Apache Kafka and Angular (NgRx)
 - Applied robust regression models based on historical data to enhance the calibration process of the #link("https://www.airqino.it/en/")[AirQino] air quality stations, resulting in a 15% increase in accuracy for PM#sub[2.5] and PM#sub[10] sensors
-- Optimized SQL queries and applied #link("https://www.timescale.com")[Timescale]'s _continuous aggregates_ technique to the #link("https://www.airqino.it/en/")[AirQino] backend APIs, resulting in a response time improvement of over 10x for specific queries
-- Set up a 1:1 read-only streaming replica of the primary #link("https://www.airqino.it/en/")[AirQino] PostgreSQL database (>100#smallcaps([m]) rows) for performance tests, relieving the load on the primary database and increasing availability
+// - Optimized SQL queries and applied #link("https://www.timescale.com")[Timescale]'s _continuous aggregates_ technique to the #link("https://www.airqino.it/en/")[AirQino] backend APIs, resulting in a response time improvement of over 10x for specific queries
+// - Set up a 1:1 read-only streaming replica of the primary #link("https://www.airqino.it/en/")[AirQino] PostgreSQL database (>100#smallcaps([m]) rows) for performance tests, relieving the load on the primary database and increasing availability
 
 == Education
 #entry[MSc in Computer Science & Engineering][University of Florence][Florence, Italy][Sep 2019 --- Apr 2022]
